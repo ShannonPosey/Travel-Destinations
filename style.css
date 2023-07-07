@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+background-image: url("/images/hawaii-g475c906d7_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+ } 
+
+ nav, .hero-text {
+    text-align: center;
+   }
+
+li {
+display: inline-block;
+margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FF8C00;
+
+}
+
+ .hero-text { 
+   margin-top: 50px;
+ }
+
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+ 
+img {
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
