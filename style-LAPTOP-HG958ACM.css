@@ -55,7 +55,7 @@ h2 {
 img {
     width: 400px;
     height: 300px;
-    margin: 0 20px 30px 15px;
+    margin-right: 20px;
 }
 
 /* About Us Page Styling */
@@ -81,27 +81,7 @@ img {
     
     /* Destinations Page Styling */
     /* Blog Page Styling */
-    .blog-title {
-margin-bottom: 15px;
-    }
-
-    .blog-summary img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height: 200px;
-    }
-
-    .blog-summary p{
-        margin: 0 40px;
-        padding: 0 20px;
-    }
-
     /* Contact Page Styling */
-form{
-    text-align: center;
-}
 
 footer {
     margin-top: 100px;
