@@ -82,7 +82,7 @@ img {
     /* Destinations Page Styling */
     /* Blog Page Styling */
     .blog-title {
-margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .blog-summary img {
@@ -99,8 +99,56 @@ margin-bottom: 15px;
     }
 
     /* Contact Page Styling */
+    #container{
+        width: 600px;
+        margin: 0 auto;
+    }
+    
 form{
+    margin-top: 40px;
     text-align: center;
+}
+
+fieldset {
+    padding: 10px;
+    border: none;
+}
+
+fieldset legend {
+    background: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: solid 2px white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+padding: 2px;
+margin: 0 0 15px;
+border: solid 1px #000;
+width: 50%;
+font-size: 14px;
+font-family: sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+display: block;
+width: 50%;
+
+}
+
+button {
+    background: #FF8C00;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+
 }
 
 footer {
